@@ -151,8 +151,17 @@ html {
 @media (max-width: 540px) {
     .card {
         width: 100%;
-        /* height: ; */
+        height: 500px;
         overflow: hidden;
         border-radius: unset;
+    }
+    .card__name {
+        margin-top: 45px;
+    }
+    .card__sociall {
+        margin: 40px 0;
+    }
+    .card__btn {
+        margin-top: 25px;
     }
 }
